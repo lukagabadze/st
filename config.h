@@ -109,7 +109,7 @@ const char *colorname[] = {
   [2] = "#54FD03", /* green   */
   [3] = "#00E463", /* yellow  */
 	[4] = "#136edd",
-  [5] = "#084389", /* magenta */
+	[5] = "#1469d1",
   [6] = "#016199", /* cyan    */
   [7] = "#82dccd", /* white   */
 
@@ -118,8 +118,8 @@ const char *colorname[] = {
   [9] = "#ff0000", /* red     */
   [10] = "#54FD03", /* green   */
   [11] = "#00E463", /* yellow  */
-	[12] = "#1064cc",
-  [13] = "#084389", /* magenta */
+	[12] = "#136edd",
+	[13] = "#1469d1",
   [14] = "#016199", /* cyan    */
   [15] = "#82dccd", /* white   */
 
@@ -131,7 +131,9 @@ const char *colorname[] = {
 };
 
   //[4] = "#084389", [> blue    <]
+  //[5] = "#084389", [> magenta <]
   //[12] = "#084389", [> blue    <]
+  //[13] = "#084389", [> magenta <]
 
 /* Default colors (colorname index)
  * foreground, background, cursor */
