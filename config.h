@@ -94,16 +94,16 @@ char *termname = "st-256color";
 unsigned int tabspaces = 8;
 
 /* bg opacity */
-float alpha = 0.8;
+float alpha = 0.9;
 
-/*
+/* pywal colors */
 #include  "/home/gabo/.cache/wal/colors-wal-st.h"
-*/
 
-
+/* default cool green theme */
+/*
 const char *colorname[] = {
 
-  /* 8 normal colors */
+  // 8 normal colors
   [0] = "#000213", 
   [1] = "#ff0000",
   [2] = "#54FD03",
@@ -113,7 +113,7 @@ const char *colorname[] = {
 	[6] = "#00abff",
   [7] = "#82dccd",
 
-  /* 8 bright colors */
+  // 8 bright colors
   [8] = "#82dccd",
   [9] = "#ff0000", 
   [10] = "#54FD03",
@@ -124,23 +124,19 @@ const char *colorname[] = {
   [15] = "#82dccd",
 
 
-  /* special colors */
-  [256] = "#000213", /* background */
-  [257] = "#82dccd", /* foreground */
-  [258] = "#82dccd",     /* cursor */
+  // special colors
+  [256] = "#000213", // background
+  [257] = "#82dccd", // foreground
+  [258] = "#82dccd", // cursor
 };
 
-  //[4] = "#084389", [> blue    <]
-  //[5] = "#084389", [> magenta <]
-  //[12] = "#084389", [> blue    <]
-  //[13] = "#084389", [> magenta <]
+unsigned int defaultbg = 0;
+unsigned int defaultfg = 257;
+unsigned int defaultcs = 258;
+unsigned int defaultrcs= 258;
 
-/* Default colors (colorname index)
- * foreground, background, cursor */
- unsigned int defaultbg = 0;
- unsigned int defaultfg = 257;
- unsigned int defaultcs = 258;
- unsigned int defaultrcs= 258;
+*/
+ 
 
 /*
  * Default shape of cursor
