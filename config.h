@@ -96,7 +96,7 @@ unsigned int tabspaces = 8;
 /* bg opacity */
 float alpha = 0.9;
 
-/* colors */
+/* color set */
 #include  "./colors.h"
 
 
