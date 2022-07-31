@@ -96,8 +96,8 @@ unsigned int tabspaces = 8;
 /* bg opacity */
 float alpha = 0.9;
 
-/* pywal colors */
-#include  "/home/gabo/.cache/colors-st.h"
+/* colors */
+#include  "./colors.h"
 
 
 /*

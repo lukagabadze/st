@@ -1,5 +1,6 @@
 st
 patches
+colors.h
 *.o
 *.orig
 *.rej
